@@ -4,32 +4,7 @@
 
 **Um jogo de console desenvolvido em Java puro, com código modularizado e os primeiros passos em Programação Orientada a Objetos.**
 
-![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge)
-![Licença](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)
-![Plataforma](https://img.shields.io/badge/Plataforma-Console-blue?style=for-the-badge)
-
 </div>
-
----
-
-## 📑 Sumário
-
-- [Sobre o projeto](#-sobre-o-projeto)
-- [Funcionalidades](#-funcionalidades)
-- [Tecnologias e conceitos aplicados](#-tecnologias-e-conceitos-aplicados)
-- [Estrutura do projeto](#-estrutura-do-projeto)
-- [Como executar](#-como-executar)
-- [Como jogar](#-como-jogar)
-- [Exemplo de execução](#-exemplo-de-execução)
-- [Decisões de design](#-decisões-de-design)
-- [Roadmap](#-roadmap)
-- [Aprendizados](#-aprendizados)
-- [Como contribuir](#-como-contribuir)
-- [Licença](#-licença)
-- [Autor](#-autor)
-
----
 
 ## 📖 Sobre o projeto
 
@@ -106,35 +81,6 @@ jogo-de-adivinhacao/
 
 ---
 
-## 🚀 Como executar
-
-### Pré-requisitos
-
-- [JDK 8 ou superior](https://adoptium.net/) instalado
-- Git (opcional, para clonar o repositório)
-
-Para verificar se o Java está instalado:
-
-```bash
-java -version
-javac -version
-```
-
-### Passo a passo
-
-**1. Clone o repositório**
-
-```bash
-git clone https://github.com/SEU-USUARIO/jogo-de-adivinhacao.git
-cd jogo-de-adivinhacao
-```
-
-**2. Compile os arquivos**
-
-```bash
-javac -d bin src/*.java
-```
-
 **3. Execute o jogo**
 
 ```bash
@@ -160,37 +106,6 @@ Também é possível abrir o projeto no **IntelliJ IDEA**, **Eclipse** ou **VS C
 
 ## 💻 Exemplo de execução
 
-```text
-=====================================
-      JOGO DE ADIVINHAÇÃO
-=====================================
-Estou pensando em um número entre 1 e 100.
-Você tem 7 tentativas. Boa sorte!
-
-Tentativa 1/7 - Digite seu palpite: 50
-📉 Muito alto! Tente um número menor.
-
-Tentativa 2/7 - Digite seu palpite: 25
-📈 Muito baixo! Tente um número maior.
-
-Tentativa 3/7 - Digite seu palpite: 37
-🎉 Parabéns! Você acertou em 3 tentativas!
-
-Seus palpites: [50, 25, 37]
-
-Deseja jogar novamente? (s/n):
-```
-
-> 💡 Dica: substitua o exemplo acima por um print real do seu terminal ou por um GIF da partida.
-
----
-
-## 🧠 Decisões de design
-
-- **Modularização:** cada parte do código possui uma única responsabilidade, o que torna o programa mais legível, testável e fácil de expandir.
-- **`ArrayList` em vez de array fixo:** o histórico de palpites cresce dinamicamente conforme o jogador faz tentativas, sem necessidade de definir o tamanho previamente.
-- **Início de POO:** a lógica do jogo e os dados do jogador foram separados em classes, preparando o projeto para evoluções como herança, interfaces e polimorfismo.
-- **Validação de entrada:** o programa trata entradas inesperadas para evitar que o jogo seja encerrado por erros de digitação.
 
 ---
 
@@ -200,38 +115,13 @@ Deseja jogar novamente? (s/n):
 - [x] Uso de `Scanner` e `ArrayList`
 - [x] Código modularizado
 - [x] Primeiros conceitos de POO
-- [ ] Níveis de dificuldade (fácil, médio, difícil)
+- [x] Níveis de dificuldade (fácil, médio, difícil)
 - [ ] Sistema de pontuação e ranking
 - [ ] Salvar histórico de partidas em arquivo
 - [ ] Aplicar herança e polimorfismo (ex.: diferentes modos de jogo)
 - [ ] Tratamento de exceções personalizado
 - [ ] Testes unitários com JUnit
 - [ ] Interface gráfica (Swing ou JavaFX)
-
----
-
-## 📚 Aprendizados
-
-Durante o desenvolvimento deste projeto, foram praticados:
-
-- Estruturas condicionais e de repetição (`if`, `while`, `do-while`);
-- Manipulação de coleções com `ArrayList`;
-- Leitura e validação de dados do usuário;
-- Criação e uso de classes, objetos e métodos;
-- Boas práticas de organização e legibilidade de código;
-- Versionamento com Git e documentação com Markdown.
-
----
-
-## 🤝 Como contribuir
-
-Contribuições, sugestões e feedbacks são muito bem-vindos!
-
-1. Faça um **fork** do projeto;
-2. Crie uma branch para sua feature: `git checkout -b feature/minha-feature`;
-3. Faça o commit das alterações: `git commit -m "feat: adiciona minha feature"`;
-4. Envie para a sua branch: `git push origin feature/minha-feature`;
-5. Abra um **Pull Request**.
 
 ---
 
