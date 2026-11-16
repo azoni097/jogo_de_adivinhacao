@@ -73,15 +73,9 @@ jogo-de-adivinhacao/
 
 ---
 
-**3. Execute o jogo**
-
-```bash
-java -cp bin Main
-```
-
 ### Executando em uma IDE
 
-Também é possível abrir o projeto no **IntelliJ IDEA**, **Eclipse** ou **VS Code** (com o *Extension Pack for Java*) e executar a classe `Main`.
+Execute o projeto no **IntelliJ IDEA**, **Eclipse** ou **VS Code** (com o *Extension Pack for Java*) e executar a classe `Main`.
 
 ---
 
