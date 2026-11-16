@@ -10,10 +10,11 @@ public class inicio {
         System.out.println("====================================================\n" 
                          + "                   O JOGO COMECOU                   \n" 
                          + "====================================================\n");
-        System.out.println("    Nivel de dificuldade:   "
-                         + "\n 1 - Facil(10 tentativas) "
-                         + "\n 2 - Medio(7 tentativas)  "
-                         + "\n 3 - Dificil(5 tentativas)");  
+        System.out.println("=============== Nivel de dificuldade ===============\n"
+                         + "              1 - Facil(10 tentativas)              \n"
+                         + "              2 - Medio(7 tentativas)               \n"
+                         + "              3 - Dificil(5 tentativas)             \n"
+                         + "====================================================\n");  
     }
 
     public int iniciarJogo(){
