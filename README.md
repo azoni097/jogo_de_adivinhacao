@@ -5,6 +5,7 @@
 **Um jogo de console desenvolvido em Java puro, com código modularizado e os primeiros passos em Programação Orientada a Objetos.**
 
 </div>
+---
 
 ## 📖 Sobre o projeto
 
@@ -70,15 +71,6 @@ jogo-de-adivinhacao/
 └── README.md
 ```
 
-### Responsabilidade de cada módulo
-
-| Arquivo | Responsabilidade |
-|---|---|
-| `Main.java` | Inicia o programa e controla o fluxo geral (menu / jogar novamente) |
-| `Jogo.java` | Gera o número secreto, compara palpites e controla as tentativas |
-| `Jogador.java` | Guarda os dados do jogador e a lista de palpites (`ArrayList<Integer>`) |
-| `Utils.java` | Funções reutilizáveis de entrada e validação |
-
 ---
 
 **3. Execute o jogo**
@@ -120,7 +112,6 @@ Também é possível abrir o projeto no **IntelliJ IDEA**, **Eclipse** ou **VS C
 - [ ] Salvar histórico de partidas em arquivo
 - [ ] Aplicar herança e polimorfismo (ex.: diferentes modos de jogo)
 - [ ] Tratamento de exceções personalizado
-- [ ] Testes unitários com JUnit
 - [ ] Interface gráfica (Swing ou JavaFX)
 
 ---
@@ -133,7 +124,7 @@ Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE)
 
 ## 👨‍💻 Autor
 
-**Seu Nome**
+**Vitória Azoni Amaral**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-PERFIL)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEU-USUARIO)
