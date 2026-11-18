@@ -8,8 +8,9 @@ public class partida {
     public int palpite;
     public int tentativas = 1;
     public int segredo;
-    
-    inicio iniciar = new inicio();
+    public String resposta;
+    public inicio iniciar;
+
     ArrayList<Integer> lista_numeros = new ArrayList<>();
     Scanner input_palpite = new Scanner(System.in);
 
