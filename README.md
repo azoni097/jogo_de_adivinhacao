@@ -5,7 +5,6 @@
 **Um jogo de console desenvolvido em Java puro, com código modularizado e os primeiros passos em Programação Orientada a Objetos.**
 
 </div>
----
 
 ## 📖 Sobre o projeto
 
@@ -47,29 +46,8 @@ O projeto foi construído **exclusivamente com Java**, sem frameworks ou bibliot
 ### Conceitos de POO presentes
 
 - **Classes e objetos**
-- **Encapsulamento** (atributos privados com getters/setters)
 - **Construtores**
 - **Separação de responsabilidades** entre lógica do jogo e interface com o usuário
-
----
-
-## 📂 Estrutura do projeto
-
-> ⚠️ Ajuste a árvore abaixo para refletir exatamente a organização do seu repositório.
-
-```
-jogo-de-adivinhacao/
-│
-├── src/
-│   ├── Main.java          # Ponto de entrada da aplicação
-│   ├── Jogo.java          # Lógica principal do jogo (sorteio, validação, tentativas)
-│   ├── Jogador.java       # Representa o jogador (nome, histórico de palpites)
-│   └── Utils.java         # Métodos auxiliares (leitura, validação, formatação)
-│
-├── .gitignore
-├── LICENSE
-└── README.md
-```
 
 ---
 
@@ -90,11 +68,6 @@ Execute o projeto no **IntelliJ IDEA**, **Eclipse** ou **VS Code** (com o *Exten
 
 ---
 
-## 💻 Exemplo de execução
-
-
----
-
 ## 🗺 Roadmap
 
 - [x] Jogo funcional no console
@@ -110,19 +83,13 @@ Execute o projeto no **IntelliJ IDEA**, **Eclipse** ou **VS Code** (com o *Exten
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👨‍💻 Autor
 
 **Vitória Azoni Amaral**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-PERFIL)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SEU-USUARIO)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seuemail@exemplo.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitoriaazoni)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/azoni097)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vitoriaaamaral8@exemplo.com)
 
 ---
 
